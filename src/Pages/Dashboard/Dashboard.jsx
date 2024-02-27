@@ -27,7 +27,7 @@ const Dashboard = () => {
         { name: 'data d', value: 320 },
     ];
     return (
-        <section className='container d-flex '>
+        <section className='container d-flex flex-column flex-md-row flex-lg-row '>
             {/* first section */}
             <div className='col-6'>
                 <div className='d-flex px-2 py-2 gap-3'>
@@ -147,6 +147,8 @@ const Dashboard = () => {
 
                     </div>
                 </div>
+
+
                 <div>
                     <div className='shadow p-3 mb-5 bg-white rounded mt-3 mx-2' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                         <div className='w-100'>
